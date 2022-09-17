@@ -1,6 +1,6 @@
 # Day One of the 100 Days of Code Python Course
 
-# Exploring the print function as an introduction to Python.
+# Exploring the print function- print() as an introduction to Python.
 print("Hello World!")
 
 # Reviewing how to adding line breaks into strings.
@@ -9,11 +9,31 @@ print("Hello\nGoodbye")
 # Exploring concatenate with strings.
 print("Hello" + "Goodbye")
 
-# Exploring the input function.
+# Exploring the input function- input().
 print("Hello " + input("What is your name?") + "!")
 
-# Write a program that prints the number of characters in a user's name.
+# Practice Exercise: Write a program that prints the number of characters in a user's name.
 print(len(input("What is your name?")))
 
-# Reveiwing the importance of utilizing comments to understand code.
+# Len function- len() will count the number of characters in the string or object
+msg = "Happy Birthday"
+print(len(msg))
+# Output will be 14
+
+# Exploring variables
+name = input("What is your name?")
+print("Hello " + name)
+
+# Practice Exercise: Write a program that will switch the values of A and B
+# Think of moving liquid between 2 cups.
+
+a = input("a: ")
+b = input("b: ")
+
+c = a
+a = b
+b = c
+
+print("a: " + a)
+print("b: " + b)
 
