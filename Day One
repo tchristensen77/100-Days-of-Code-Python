@@ -37,3 +37,9 @@ b = c
 print("a: " + a)
 print("b: " + b)
 
+# Final Project: Write code for a band name generator.
+
+print("Hello! Welcome to the Band Name Generator.")
+city_name = input("What city did you grow up in?")
+pet_name = input("What is the name of your pet?")
+print(city_name + " " + pet_name) 
