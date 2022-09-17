@@ -6,6 +6,7 @@ This repository is used for my 100 Days of Code Python Course.
 
 ### Day One
 Introduction to Python: 
+
 -Using the print and input functions
 -Intro to debugging
 -Intro to variables
