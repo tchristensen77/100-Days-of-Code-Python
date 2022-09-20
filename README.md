@@ -6,6 +6,18 @@ This repository is used for my 100 Days of Code Python Course.
 
 ### Day One
 Introduction to Python: 
-* Using the print and input functions
+* Using the print, input and len functions
 * Intro to debugging
 * Intro to variables
+
+### Day Two
+Exploring Data Types:
+* Strings
+* Intergers
+* Float
+* Boolean
+
+Exploring Type Conversions:
+* str()
+* int()
+* float()
