@@ -1,0 +1,33 @@
+# Day Two of 100 Days of Code
+
+# Exploring subscripting
+print("Hello"[2])
+
+street_name = "Abbey Road"
+print(street_name[4] + street_name[7])
+
+# Using type() to determine a data type
+num_char = len(input("What is your name?"))
+print(type(num_char))
+
+# Using str() to convert other data types into strings
+new_num_char = str(num_char)
+print("Your name has " + new_num_char + " characters.")
+
+# Using float() to convert interger into floats
+a = float(123)
+print(a)
+
+# Using int() to convert into integer data type
+a = int(123.0)
+print(a)
+
+# Exercise 1: Write a program that adds the digits in a 2 digit number
+
+two_digit_number = input("Type a two digit number: ")
+
+a = int(two_digit_number[0])
+b = int(two_digit_number[1])
+
+print(a + b)
+
