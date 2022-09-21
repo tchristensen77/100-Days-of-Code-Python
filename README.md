@@ -10,6 +10,8 @@ Introduction to Python:
 * Intro to debugging
 * Intro to variables
 
+**Final Project:** Creaing a band name generator
+
 ### Day Two
 **Exploring Data Types:**
 Strings, Intergers, Float, Boolean
@@ -19,3 +21,7 @@ str(), int(), float()
 
 **Exploring Mathematical Operators:**
 addition (+), subtraction (-), multiplication (*), division (/), exponent (**)
+
+Exploring how to use f strings and other short hand.
+
+**Final project:** Creating a tip calculator
