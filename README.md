@@ -11,11 +11,11 @@ Introduction to Python:
 * Intro to variables
 
 ### Day Two
-Exploring Data Types:
+**Exploring Data Types:**
 Strings, Intergers, Float, Boolean
 
-Exploring Type Conversions:
+**Exploring Type Conversions:**
 str(), int(), float()
 
-Exploring Mathematical Operators:
+**Exploring Mathematical Operators:**
 addition (+), subtraction (-), multiplication (*), division (/), exponent (**)
