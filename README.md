@@ -12,12 +12,10 @@ Introduction to Python:
 
 ### Day Two
 Exploring Data Types:
-* Strings
-* Intergers
-* Float
-* Boolean
+Strings, Intergers, Float, Boolean
 
 Exploring Type Conversions:
-* str()
-* int()
-* float()
+str(), int(), float()
+
+Exploring Mathematical Operators:
+addition (+), subtraction (-), multiplication (*), division (/), exponent (**)
