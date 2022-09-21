@@ -47,4 +47,16 @@ months = (90-int(age)) * 12
 
 print(f"You have {days} days, {weeks} weeks, and {months} months left.")
 
-Final Exercise: 
+Final Exercise: Write a program for a tip calculator. 
+
+print("Welcome to the tip calculator!")
+bill = input("What was the total bill?")
+tip = input("What percentage tip would you like to give? 10, 12, or 15?")
+split = input("How many people to split the bill?")
+
+tip_percent = int(tip)/100
+total_with_tip = (float(bill) * tip_percent) + float(bill)
+cost_per_person = round(total_with_tip / int(split), 2)
+print(f"Each person should pay: ${cost_per_person}")
+
+
