@@ -31,3 +31,8 @@ b = int(two_digit_number[1])
 
 print(a + b)
 
+# Rxercise 2: Write a program to calculate someones BMI
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+print(int(float(weight)/(float(height) ** 2)))
