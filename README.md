@@ -25,3 +25,8 @@ This repository is used for my 100 Days of Code Python Course.
 * Exploring how to use f strings and other short hand.
 
 **Final project:** Creating a tip calculator
+
+### Day Three
+**Topics Covered:**
+* Conditional Statements
+* Modulo operator
