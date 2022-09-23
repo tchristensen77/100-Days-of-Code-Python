@@ -53,3 +53,27 @@ elif bmi < 35:
     print(f"Your BMI is {bmi}, you are obese.")
 else:
     print(f"Your BMI is {bmi}, you are clinically obese.")
+    
+    
+Exercise 3: In progress
+
+four_year = round(year / 4)
+hundred_year = round(year / 100)
+four_hundred = round(year / 400)
+
+if four_year % 2 != 1:
+    #even
+    if hundred_year % 2 != 1:
+        #is even
+        if four_hundred % 2 != 1:
+            # even
+            print("Leap year")
+        else:
+            # not even
+            print("Not leap year.")
+    else:
+        #not even
+        print("Leap year.")
+else:
+    # not even
+    print("Not leap year.")
