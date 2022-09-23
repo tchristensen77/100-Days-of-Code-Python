@@ -1,0 +1,21 @@
+# Day 3 
+
+# Exploring conditonal statements
+# You must be at least 120 cm to ride the rollercoaster
+
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+
+if height >= 120:
+  print("You can ride the rollercoaster!")
+else:
+  print("Sorry you are not tall enough to ride.")
+  
+# Exercise 1: Write a program that works out whether if a given number is an odd or even number.
+
+number = int(input("Which number do you want to check? "))
+
+if number % 2 == 1:
+    print("This is an odd number.")
+else:
+    print("This is an even number.")
