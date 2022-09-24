@@ -162,3 +162,43 @@ if total_numbers >= 51 and total_numbers <= 89:
     print(f"Your score is {total_numbers}.")
     
     
+ # 👇 Final project: Choose your own adventure.    
+ 
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+
+print("You arrive on the island in the middle of a storm.")
+beach_jungle = input("Should you stay on the beach or travel into the jungle? Beach or Jungle \n")
+#print(beach_jungle)
+
+if beach_jungle == "Beach":
+  print("Waiting until daybreak, you decide it is now safe to travel into the jungle.")
+  print("You hike for a few hours and your friends are getting tired. You decide to scout ahead.")
+  village = input("You see a village in the jungle, do you approach?Y or N \n")
+  #print(village)
+  if village == "N":
+    print("You get lost in the jungle while trying to return and are never seen again. Game Over.")
+  if village == "Y":
+    print("The villagers are friendly and point you in the right direction.")
+    print("You enter a clearing and see the temple you seek on a mountain up ahead.")
+    mountain = input("Should you make camp for the night, begin your ascent, or wait for your friends? Camp, Ascend or Wait \n")
+    if mountain == "Camp":
+      print("You are attacked in the night and die. Game Over.")
+    if mountain == "Ascend":
+        print("You underestimate the distance to the top. You are exhausted and trip over a rock, falling to your death. Game Over.")
+    if mountain == "Wait":
+      print("Waiting for your friends appears to the right choice. They arrive a few hours later with more supplies.")
+      print("You all make camp for the night and begin your ascent in the morning.\nThe climb is treacherous but you all make it. Upon making it to the top, you see the temple ahead.")
+      sac = input("Ancient folklore has said that you must make a sacrifice to enter. Do you make a sacrifice? Y or N \n")
+      #print(sac)
+      if sac == "Y":
+        print("You leave a sacrifice of the last of your water.")
+        print("You enter the temple and are rewarded with a grand treasure!")
+      if sac == "N":
+        print("YOu refuse to leave a sacrifice and enter the temple anyways. As soon as you cross the threshold, the skelotons awake.\nYou try to fight them off but lose. Game over.")
+      else: 
+        print("You are caught up in indecision and your friends get into the temple first. Game over.")
+if beach_jungle == "Jungle":
+  print("It is too dark to see and you are attacked in the night. Game Over.")
+else: 
+  print("You have chosen poor, please try again.")
