@@ -32,4 +32,4 @@ This repository is used for my 100 Days of Code Python Course.
 * Modulo operator
 * Logic Operators
 
-** Final project:** Creating a choose your own adventure game.
+**Final project:** Creating a choose your own adventure game.
