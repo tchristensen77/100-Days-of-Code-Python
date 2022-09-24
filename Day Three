@@ -11,7 +11,7 @@ if height >= 120:
 else:
   print("Sorry you are not tall enough to ride.")
   
-# Exercise 1: Write a program that works out whether if a given number is an odd or even number.
+# 👇 Exercise 1: Write a program that works out whether if a given number is an odd or even number.
 
 number = int(input("Which number do you want to check? "))
 
@@ -37,7 +37,7 @@ if height >= 120:
 else:
   print("Sorry you are not tall enough to ride.")
   
-# Exercise 2: Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
+# 👇 Exercise 2: Write a program that interprets the Body Mass Index (BMI) based on a user's weight and height.
   
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
@@ -55,7 +55,7 @@ else:
     print(f"Your BMI is {bmi}, you are clinically obese.")
     
     
-Exercise 3: Write a program that works out whether if a given year is a leap year.
+# 👇 Exercise 3: Write a program that works out whether if a given year is a leap year.
 
 year = int(input("Which year do you want to check? "))
 
@@ -104,7 +104,7 @@ if height >= 120:
 else:
   print("Sorry you are not tall enough to ride.")
   
-# Exercise 4: Write a program that will calculate a bill based on their pizza order.
+# 👇 Exercise 4: Write a program that will calculate a bill based on their pizza order.
 
 print("Welcome to Python Pizza Deliveries!")
 size = input("What size pizza do you want? S, M, or L ")
@@ -131,3 +131,34 @@ if extra_cheese == "Y":
 
 print(f"Your final bill is: ${bill}")
   
+# 👇 Exercise 5: Write a program that tests the compatibility between two people.
+
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+
+lower_name1 = name1.lower()
+lower_name2 = name2.lower()
+
+joint_names = lower_name1 + lower_name2
+
+joint_names_t = joint_names.count("t")
+joint_names_r = joint_names.count("r")
+joint_names_u = joint_names.count("u")
+joint_names_e = joint_names.count("e")
+joint_names_l = joint_names.count("l")
+joint_names_o = joint_names.count("o")
+joint_names_v = joint_names.count("v")
+
+total_numbers = int(str(joint_names_t + joint_names_r + joint_names_u + joint_names_e) + str(joint_names_l + joint_names_o + joint_names_v + joint_names_e))
+
+if total_numbers < 10 or total_numbers > 90:
+    print(f"Your score is {total_numbers}, you go together like coke and mentos.")
+if total_numbers >= 40 and total_numbers <=50:
+    print(f"Your score is {total_numbers}, you are alright together.")
+if total_numbers >= 10 and total_numbers <= 39:
+    print(f"Your score is {total_numbers}.")
+if total_numbers >= 51 and total_numbers <= 89:
+    print(f"Your score is {total_numbers}.")
+    
+    
