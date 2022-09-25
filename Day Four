@@ -22,4 +22,30 @@ if coin == 0:
 if coin == 1:
   print("Tails")
   
-  
+# Exploring lists
+# Creating a list
+fruits = ["Cherry", "Apple", "Pear"]
+print(fruits)
+print(fruits[2])
+
+#Changing the list
+fruits[2] = "Pinapple"
+print(fruits)
+
+# Adding to the list
+fruits.append("Pear")
+print(fruits)
+
+# Exercise 2: Write a program to randomly decide you will buy the meal.
+
+import random
+
+names_string = input("Give me everybody's names, separated by a comma. ")
+names = names_string.split(", ")
+
+num_names = (len(names))
+choice = random.randint(0, num_names)
+
+banker = names[choice]
+
+print(f"{banker} is going to buy the meal today!")
