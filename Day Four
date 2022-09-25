@@ -50,19 +50,21 @@ banker = names[choice]
 
 print(f"{banker} is going to buy the meal today!")
 
-# Exercise 3: in progress
+# Exercise 3: Write a program to mark an "X" on a treasure map where to hide the treasure
 
-
+# Diagram of the map
 row1 = ["⬜️","️⬜️","️⬜️"]
 row2 = ["⬜️","⬜️","️⬜️"]
 row3 = ["⬜️️","⬜️️","⬜️️"]
 map = [row1, row2, row3]
 print(f"{row1}\n{row2}\n{row3}")
+
+# Write where you want the "X" placed vertically and horizontally- ex 23 = second row, third column
 position = input("Where do you want to put the treasure? ")
 
 vert = int(position[0])-1
 hor = int(position[1])-1
-#print(vert)
-#print(hor)
+
+map[hor][vert] = "X"
 
 print(f"{row1}\n{row2}\n{row3}")
