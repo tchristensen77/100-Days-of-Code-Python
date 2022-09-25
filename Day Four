@@ -1,0 +1,25 @@
+# Day 4
+
+# Exploring random number generators
+
+import random
+
+random_int = random.randint(1,10)
+print(random_int)
+
+random_float = random.random()
+print(random_float)
+
+# Exercise 1: Write a program that will flip a coin and produce "Heads" or "Tails"
+
+import random
+
+coin = random.randint(0,1)
+
+if coin == 0:
+  print("Heads")
+
+if coin == 1:
+  print("Tails")
+  
+  
