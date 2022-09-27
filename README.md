@@ -17,11 +17,8 @@ This repository is used for my 100 Days of Code Python Course.
 ### Day Two
 **Topics Covered:**
 * Data Types: Strings, Intergers, Float, Boolean
-
 * Type Conversions: str(), int(), float()
-
 * Mathematical Operators: addition (+), subtraction (-), multiplication (*), division (/), exponent (**)
-
 * Exploring how to use f strings and other short hand.
 
 **Final project:** Creating a tip calculator
@@ -33,3 +30,10 @@ This repository is used for my 100 Days of Code Python Course.
 * Logic Operators
 
 **Final project:** Creating a choose your own adventure game.
+
+### Day Four
+**Topics Covered:**
+* Random Number Generator
+* Lists
+
+**Final Project:** Rock, Paper, Scissors game.
