@@ -37,3 +37,11 @@ This repository is used for my 100 Days of Code Python Course.
 * Lists
 
 **Final Project:** Rock, Paper, Scissors game.
+
+### Day Five
+**Topics Covered:**
+* For Loops
+* 
+
+**Final Project:** 
+
