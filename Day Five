@@ -1,0 +1,24 @@
+# Day Five 
+
+# Exploring loops
+
+fruits = ["Apple", "Peach", "Pear"]
+
+for fruit in fruits
+  print(fruit)
+  print(fruit + " Pie")
+
+# Exercise 1: Write a program that will find the average of students heights
+
+
+# Getting the heights and creating the list
+student_heights = input("Input a list of student heights ").split()
+for n in range(0, len(student_heights)):
+  student_heights[n] = int(student_heights[n])
+
+# Adding the height and dividing them by the total heights provided.
+sum = 0
+for height in student_heights:
+    sum = sum + height
+print(round(sum / (n+1)))
+
