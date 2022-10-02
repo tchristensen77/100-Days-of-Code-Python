@@ -64,4 +64,19 @@ for numbers in range(1,101):
         
  # FizzBuzz condition needed to be first, or it would be label with the other conditions       
  
+ # Final Project: Write a password generator- in progress
  
+ for letter in range(0, nr_letters):
+  n = random.randint(0,len(letters))
+  let = letters[n]
+#let = letters[n] + letters[n] + letters[n] + letters[n] 
+
+for symbol in range(0, nr_symbols):
+  n = random.randint(0,len(symbols))
+sym = symbols[n]
+  
+for number in range(0, nr_numbers):
+  n = random.randint(0,len(numbers))
+num = numbers[n]  
+
+print(let + sym + num)
