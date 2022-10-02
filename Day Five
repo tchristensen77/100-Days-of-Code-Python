@@ -37,3 +37,12 @@ for score in student_scores:
 
 print(f"The highest score in the class is: {top_score}")
 
+# Exercise 3: Write a program that calculates the sum of all the even numbers from 1 to 100. 
+
+total = 0
+for numbers in range(0,101,2):
+    total += numbers
+
+print(total)
+
+
