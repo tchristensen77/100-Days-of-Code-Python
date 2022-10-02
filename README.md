@@ -41,7 +41,7 @@ This repository is used for my 100 Days of Code Python Course.
 ### Day Five
 **Topics Covered:**
 * For Loops
-* 
+* Range function in for loops
 
-**Final Project:** 
+**Final Project:** Creating a random password generator
 
