@@ -45,3 +45,9 @@ This repository is used for my 100 Days of Code Python Course.
 
 **Final Project:** Creating a random password generator
 
+### Day Six
+**Topics Covered:**
+* Defining and calling functions
+* 
+
+**Final Project:** 
