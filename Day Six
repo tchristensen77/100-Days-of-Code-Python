@@ -9,3 +9,21 @@ def myfunction():
 myfunction()
 
 # Using Reeborg to understand functions and how to break down code step by step
+# Teaching Reeborg how to jump hurtles
+
+def hurtle():
+    move()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    
+for jump in range(1,7):
+    hurtle()
