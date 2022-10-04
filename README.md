@@ -47,7 +47,7 @@ This repository is used for my 100 Days of Code Python Course.
 
 ### Day Six
 **Topics Covered:**
-* Defining and calling functions
+* Defining and calling functions using [Reeborg's World](https://reeborg.ca/index_en.html)
 * 
 
 **Final Project:** 
