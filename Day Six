@@ -1,0 +1,11 @@
+# Day Six
+
+# Exploring Functions
+
+def myfunction():
+  print("hello")
+  print("goodbye")
+
+myfunction()
+
+# Using Reeborg to understand functions and how to break down code step by step
