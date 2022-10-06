@@ -27,3 +27,64 @@ def hurtle():
     
 for jump in range(1,7):
     hurtle()
+
+
+# Exploring While Loops
+# Hurtle 2 Exercise
+
+numofhurtles = 6
+while numofhurtles > 0:
+    hurtle()
+    numofhurtles -= 1
+    
+while at_goal() != True:
+    hurtle()
+    
+# Hurtle 3 Exercise
+
+def hurtle():
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+
+# If not at goal, Reeborg will continue. If there is a wall, Reeborg will hurtle. If it is clear, Reeborg will move forward.
+while not at_goal():
+    if wall_in_front() == True:
+        hurtle()
+    if front_is_clear() == True:
+            move()
+            
+# Hurtle 4 Exercise
+
+def hurtle():
+    turn_left()
+    turn_left()
+    turn_left()
+    move()
+    turn_left()
+    turn_left()
+    turn_left()
+    
+# If Reeborg has not reached the goal, then contine looping.  
+while not at_goal():
+    # If there is a wall, turn left.
+    if wall_in_front() == True:
+        turn_left()
+    # If there is a wall on the right, move.
+    elif wall_on_right() == True:
+        move()
+        # After moving if the right is clear, hurtle.
+        if right_is_clear() == True:
+            hurtle()
+    # Once all prior conditions are checked, if front is clear, then move. Could also be an else statement.
+    elif front_is_clear() == True:
+        move()
+            
