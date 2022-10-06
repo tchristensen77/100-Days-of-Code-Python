@@ -48,6 +48,6 @@ This repository is used for my 100 Days of Code Python Course.
 ### Day Six
 **Topics Covered:**
 * Defining and calling functions using [Reeborg's World](https://reeborg.ca/index_en.html)
-* 
+* While Loops
 
-**Final Project:** 
+**Final Project:** Write a program to help Reeborg escape a maze
