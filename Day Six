@@ -95,11 +95,6 @@ def turn_right():
     turn_left()
     turn_left()
     
-def turn_aroung():
-    turn_left()
-    turn_left()
-
-    
 while not at_goal():
     if right_is_clear() == True:
         turn_right()
