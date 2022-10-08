@@ -1,2 +1,29 @@
 # Day Seven
 
+# Building a Hangman Game
+
+# Step 1 
+
+# To Do 1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
+
+# To Do 2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
+
+# To Do 3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
+
+word_list = ["aardvark", "baboon", "camel"]
+
+import random
+
+word = str(random.choice(word_list))
+
+#print(word)
+
+chosen_word = list(word)
+
+guess = input("Choose a letter:\n").lower()
+
+for letter in chosen_word:
+  if guess in letter:
+    print(True)
+  if guess not in letter:
+    print(False)
