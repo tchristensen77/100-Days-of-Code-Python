@@ -51,3 +51,9 @@ This repository is used for my 100 Days of Code Python Course.
 * While Loops
 
 **Final Project:** Write a program to help Reeborg escape a maze
+
+### Day Seven
+**Topics Covered:**
+* Combining concepts to build a hangman game
+
+**Final Project:** Write a program to build a [Hangman Game](https://replit.com/join/aprjcrfwwx-trenachristense)
