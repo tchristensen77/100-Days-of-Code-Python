@@ -1,0 +1,39 @@
+# Day Eight
+
+#  Functions with inputs
+
+def greet(name):
+  print(f"Hello {name}.")
+  print(f"Welcome {name}.")
+  print("How can I assist you?")
+
+greet("Trena")
+
+# Functions with more than 1 input
+# Inputs based on position- positional arguement
+
+def greet_with(name, location):
+  print(f"Hello {name}")
+  print(f"How is the weather in {location}")
+
+greet_with("Trena", "Virginia")
+
+# Inputs based on keyword arguement
+
+def greet_with(name, location):
+  print(f"Hello {name}")
+  print(f"How is the weather in {location}")
+
+greet_with(location="Virginia", name="Trena")
+
+# Exercise 1: Write code to determine how many cans of paint you will need to buy
+
+def paint_calc(height, width, cover):
+    total = round(int(height*width)/cover)
+    print(f"You'll need {total} cans of paint.")
+
+test_h = int(input("Height of wall: "))
+test_w = int(input("Width of wall: "))
+coverage = 5
+paint_calc(height=test_h, width=test_w, cover=coverage)
+
