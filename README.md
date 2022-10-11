@@ -57,3 +57,10 @@ This repository is used for my 100 Days of Code Python Course.
 * Combining concepts to build a hangman game
 
 **Final Project:** Write a program to build a [Hangman Game](https://replit.com/join/aprjcrfwwx-trenachristense)
+
+### Day Eight
+**Topics Covered:**
+* Functions with inputs
+*
+
+**Final project:** Caesar Cipher
